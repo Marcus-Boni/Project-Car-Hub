@@ -63,3 +63,7 @@ export type ShowMoreProps = {
   pageNumber: number;
   isNext: boolean;
 };
+
+export type HomeProps = {
+  searchParams: FilterProps
+}

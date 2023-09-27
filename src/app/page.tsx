@@ -1,8 +1,9 @@
 import { Hero, CustomFilter, SearchBar, CarCard, ShowMore } from "@/components";
 import { fuels, yearsOfProduction } from "@/constants";
+import { HomeProps } from "@/types";
 import { fetchCars } from "@/utils";
 
-export default async function Home({ searchParams }: { searchParams: any}) {
+export default async function Home({ searchParams }: HomeProps) {
   const allCars = await fetchCars({
     manufacturer: searchParams?.manufacturer || "",
     year: searchParams?.year || 2022,
@@ -31,7 +32,11 @@ export default async function Home({ searchParams }: { searchParams: any}) {
         {!isDataEmpty && (
           <section>
             <div className="home__cars-wrapper">
-              {allCars?.map((car) => <CarCard car={car} />)}
+              {allCars?.map((car, index) => (
+                <div key={index}>
+                  <CarCard car={car} />
+                </div>
+              ))}
             </div>
 
             <ShowMore
