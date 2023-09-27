@@ -1,3 +1,29 @@
+### 👉 Access Link Here: https://project-car-hub.vercel.app/
+
+<hr/>
+
+<h2>Topics covered</h2>
+
+✅ Create a template from scratch
+
+✅ React fundamental concepts;
+
+✅ Next.js 13 routing with the new App Router;
+
+✅ Layout, error and other special files;
+
+✅ React Server Components;
+
+✅ Typescript;
+
+✅ TailwindCSS.
+
+✅ Good practices.
+
+And so much more!
+
+With Next.js 13 (APP Router) & React 18!
+
 ## Getting ready 🚀
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
