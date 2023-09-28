@@ -4,7 +4,7 @@
 
 <h2>Topics covered</h2>
 
-✅ Create a template from scratch
+✅ Create a template from scratch;
 
 ✅ React fundamental concepts;
 
@@ -16,9 +16,9 @@
 
 ✅ Typescript;
 
-✅ TailwindCSS.
+✅ TailwindCSS & Headless UI;
 
-✅ Good practices.
+✅ Good practices;
 
 And so much more!
 
